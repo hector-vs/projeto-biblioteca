@@ -17,6 +17,8 @@ body#body-login {
 }
 
 .area-login {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     height: 100vh;
     justify-content: center;
