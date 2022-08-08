@@ -17,8 +17,6 @@ body#body-login {
 }
 
 .area-login {
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -229,11 +227,11 @@ main {
 
 /* ---------------ranking-------------- */
 
-/* body#body-ranking{
+#body-ranking{
     background-color: #759BE0;
     font-family: 'Work Sans', sans-serif;
 }
-header{
+#header-ranking{
     height: 10vh;
     background-color: #7766A8;
     display: flex;
@@ -241,26 +239,25 @@ header{
     justify-content: flex-starts;
     margin-bottom: 15px;
 }
-header img{
+#header-ranking img{
     margin: 10px;
     
 }
-header > p {
+#header-ranking > p {
     align-self: center;
 }
-header p {
+#header-ranking p {
     color: rgb(228, 228, 228);
     text-transform: uppercase;
     font-size: 2em;
     font-weight: 600;
 }
-main{
-    background-color: red;
+#main-ranking{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-#content{
+#content-ranking{
     background-color: rgb(255, 255, 255);
     width: 80%;
     height: 80vh;
@@ -270,7 +267,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
 }
-.celulas{
+.celulas-ranking{
     border: 1px solid black;
     border-radius: 7px;
     width: 100%;
@@ -281,7 +278,9 @@ main{
     flex-direction: row;
     justify-content: flex-start;
 }
-.celulas p {
-    background-color: rgb(140, 140, 199);
+.celulas-ranking p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     margin: 5px;
-} */
+} 
